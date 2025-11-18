@@ -1,0 +1,7 @@
+use northwind;
+
+select
+productID, productName, UnitsInStock, UnitPrice
+from products
+where UnitsInStock > 100
+order by UnitPrice desc
